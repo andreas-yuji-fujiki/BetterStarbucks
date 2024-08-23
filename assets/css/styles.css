@@ -1,0 +1,134 @@
+/* main header elements styles below
+*/
+#mainHeader{
+    width: 100%;
+    height: 20vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#mainLogo img{
+    width: 3.7vw;
+}
+nav ul{
+    list-style: none;
+
+    display: flex;
+    gap: 3vw;
+}
+#mainNav li{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#mainNav li a:hover{
+    transition: 0.4s;
+    color: #00623b;
+}
+
+#btn-sign-in a{
+    color: white;
+}
+#btn-sign-in{
+    color: white;
+    background-color: #00623b;
+    padding: 1vw 2vw;
+    border-radius: 10vw;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 0.8vw;
+
+    border: none;
+    outline: none;
+}
+#btn-sign-in:hover{
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    transform: scale(1.05);
+}
+
+
+
+
+/* presentation section styles below
+*/
+#presentation{
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* social media floating icons */
+.presentationFloatingIcon{
+    position: absolute;
+    font-size: 3vw;
+    opacity: 0.45;
+}
+.presentationFloatingIcon:hover{
+    transition: 0.3s;
+    color: #00623b;
+    opacity: 1;
+}
+#floatingIGIcon{
+    right: 15%;
+    top: 48%;
+    transform: rotateZ(30deg);
+}
+#floatingXIcon{
+    left: 15%;
+    top: 60%;
+    transform: rotateZ(-30deg);
+}
+
+/* presentation text */
+#presentation-title{
+    z-index: -1;
+}
+#presentation-title h2{
+    font-size: 7.8vw;
+    line-height: 4.7vw;
+}
+#presentation-title h1{
+    margin: 0.8vw 2rem 0 0;
+    font-size: 1.8vw;
+    text-align: right;
+    text-transform: lowercase;
+    letter-spacing: 0.4vw;
+    opacity: 0.5;
+}
+.greenText{
+    color: #00623b;
+}
+
+/* presentation images */
+#presentation-cups-img{
+    width: 32vw !important; 
+    margin-top: -2rem;
+}
+#presentation-images-container img{
+    width: 15vw;
+}
+
+
+
+
+/* shadow styles
+*/
+.img-green-shadow{
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    z-index: -1;
+}
+#top-right-shadow{
+    top: 0;
+    right: 0;
+}
+#bottom-left-shadow{
+    bottom: 0;
+    left: 0;
+}
