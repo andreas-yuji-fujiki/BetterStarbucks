@@ -59,7 +59,7 @@ nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /* social media floating icons */
@@ -78,11 +78,18 @@ nav ul{
     top: 48%;
     transform: rotateZ(30deg);
 }
+#floatingIGIcon:hover{
+    rotate: -110deg;
+}
 #floatingXIcon{
     left: 15%;
     top: 60%;
     transform: rotateZ(-30deg);
 }
+#floatingXIcon:hover{
+    rotate: 240deg;
+}
+
 
 /* presentation text */
 #presentation-title{
@@ -93,7 +100,7 @@ nav ul{
     line-height: 4.7vw;
 }
 #presentation-title h1{
-    margin: 0.8vw 2rem 0 0;
+    margin: 1vw 2.3vw 0 0;
     font-size: 1.8vw;
     text-align: right;
     text-transform: lowercase;
@@ -106,8 +113,8 @@ nav ul{
 
 /* presentation images */
 #presentation-cups-img{
-    width: 32vw !important; 
-    margin-top: -2rem;
+    width: 35vw !important; 
+    height: 55vh;
 }
 #presentation-images-container img{
     width: 15vw;
