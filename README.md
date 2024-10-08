@@ -16,4 +16,7 @@ This project is a redesign of the Starbucks website, built with React, Tailwind 
 - You can view the source code in this repository, or
 - [View the live demo](#) (NOT AVAIBLE YET!)
 
-### By: [Andreas Yuji](https://andreas-yuji-fujiki.github.io/portfolio)
+### By: Andreas Yuji
+- [ Portfolio! ](https://andreas-yuji-fujiki.github.io/portfolio)
+- [GITHUB](https://github.com/andreas-yuji-fujiki)
+- [LINKEDIN](www.linkedin.com/in/andreas-yuji-fujiki-a08633321)
